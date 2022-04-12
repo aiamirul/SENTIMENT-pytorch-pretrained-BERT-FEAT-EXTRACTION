@@ -1,0 +1,1 @@
+python examples/extract_features.py --input_file data/PO.csv --output_file PO.json --bert_model bert-base-uncased
