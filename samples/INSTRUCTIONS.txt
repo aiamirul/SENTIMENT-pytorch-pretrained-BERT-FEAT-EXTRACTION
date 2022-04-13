@@ -1,0 +1,14 @@
+
+pip install pytorch-pretrained-bert
+
+conda create --name senti python=3.7
+
+pip install -r requirements.txt
+
+pip install pytorch-pretrained-bert 
+
+--EXECUTE EXTRACTION
+
+
+python examples/extract_features.py --input_file data/PO.csv --output_file PO.json --bert_model bert-base-uncased
+
