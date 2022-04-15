@@ -1,9 +1,17 @@
+REF https://github.com/huggingface/transformers
+https://copypaste.guru/WhereIsMyPythonModule/how-to-fix-modulenotfounderror-no-module-named-pytorch-pretrained-bert
+
 NEW ENVIRONMENT USING COPNDA AND INSTALL REQUIREMENTS  
 conda create --name bert python==3.7
 conda activate bert 
 pip install -r requirements.txt
 conda install -c huggingface transformers
+pip install pytorch-pretrained-bert
 
 RUN THE EXTRACTION METHOD
 
 python examples/extract_features.py --input_file data/PO.csv --output_file PO.json --bert_model bert-base-uncased
+
+python examples/extract_features.py --input_file data/NE.csv --output_file NE.json --bert_model bert-base-uncased
+
+python examples/extract_features.py --input_file data/NU.csv --output_file NU.json --bert_model bert-base-uncased
