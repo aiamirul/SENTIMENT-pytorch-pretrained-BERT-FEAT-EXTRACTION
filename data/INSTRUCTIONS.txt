@@ -1,1 +1,9 @@
+NEW ENVIRONMENT USING COPNDA AND INSTALL REQUIREMENTS  
+conda create --name bert python==3.7
+conda activate bert 
+pip install -r requirements.txt
+conda install -c huggingface transformers
+
+RUN THE EXTRACTION METHOD
+
 python examples/extract_features.py --input_file data/PO.csv --output_file PO.json --bert_model bert-base-uncased
