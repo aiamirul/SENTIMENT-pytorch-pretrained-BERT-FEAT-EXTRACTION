@@ -10,8 +10,8 @@ pip install pytorch-pretrained-bert
 
 RUN THE EXTRACTION METHOD
 
-python examples/extract_features.py --input_file data/PO.csv --output_file PO.json --bert_model bert-base-uncased
+python examples/extract_features.py --input_file data/PO.csv --output_file data/PO.json --bert_model bert-base-uncased
 
-python examples/extract_features.py --input_file data/NE.csv --output_file NE.json --bert_model bert-base-uncased
+python examples/extract_features.py --input_file data/NE.csv --output_file data/NE.json --bert_model bert-base-uncased
 
-python examples/extract_features.py --input_file data/NU.csv --output_file NU.json --bert_model bert-base-uncased
+python examples/extract_features.py --input_file data/NU.csv --output_file data/NU.json --bert_model bert-base-uncased
