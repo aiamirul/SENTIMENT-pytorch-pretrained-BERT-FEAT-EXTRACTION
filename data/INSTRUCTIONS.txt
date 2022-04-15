@@ -1,3 +1,11 @@
+WHAT I UNDERSTAND --> MAYBE
+DATA IN "Variable text some short some long"
+BERT OUTPUT = 1st CLS token and each word in sentence
+EACH TOKEN HAS EMBEDDINGS 768 X 4
+I THINK WE TAKE THE CLS(1 out of 4) FOR EACH SENTENCE AS FEATURES
+SAVE THEM WITH LABELS AND MERGE THE CSV 
+NOW WE GOT A DATASET BASED ON BERTS FEATURE EXTRACTION METHOD 
+
 REF https://github.com/huggingface/transformers
 https://copypaste.guru/WhereIsMyPythonModule/how-to-fix-modulenotfounderror-no-module-named-pytorch-pretrained-bert
 
