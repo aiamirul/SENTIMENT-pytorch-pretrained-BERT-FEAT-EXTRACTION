@@ -1,4 +1,27 @@
+# EXTRACT FEATURES BERT HACK
+CLS Classification Token as Features
+0.  Prepare CSV of text data 1 Line 1 Entry
+1.  Run Extraction 
+- Input: NE.csv
+- Output: data/NE.json
+- python examples/extract_features.py --input_file data/NE.csv --output_file data/NE.json --bert_model bert-base-uncased
+
+2. RUN Jupyter Read JSON get CLS and add Label then save to CSV for each class
+3. Combine All CSV
+4. save as X y npy 
+5. use in machine learning 
+
+
+
+HACK ALL FILES ARE IN
+Files /Data
+
+
+
+
+# ORIGINAL README.MD
 # PyTorch Pretrained BERT: The Big & Extending Repository of pretrained Transformers
+
 
 [![CircleCI](https://circleci.com/gh/huggingface/pytorch-pretrained-BERT.svg?style=svg)](https://circleci.com/gh/huggingface/pytorch-pretrained-BERT)
 
